@@ -1,0 +1,20 @@
+{
+  "name": "tabunganku",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplikasi tabungan harian dengan streak",
+  "scripts": {
+    "android:add": "npx cap add android",
+    "assets": "npx capacitor-assets generate --android",
+    "sync": "npx cap sync android",
+    "apk": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.2.0"
+  }
+}
